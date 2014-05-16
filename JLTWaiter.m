@@ -37,17 +37,19 @@
     }
 }
 
-+ (JLTWaiter *)waiter
+#pragma mark Memory Lifecycle
+
++ (instancetype)waiter
 {
     return [[JLTWaiter alloc] init];
 }
 
-+ (JLTWaiter *)waiterWithWaitQuantum:(NSTimeInterval)waitQuantum
++ (instancetype)waiterWithWaitQuantum:(NSTimeInterval)waitQuantum
 {
     return [[JLTWaiter alloc] initWithWaitQuantum:waitQuantum];
 }
 
-- (id)initWithWaitQuantum:(NSTimeInterval)waitQuantum
+- (instancetype)initWithWaitQuantum:(NSTimeInterval)waitQuantum
 {
     self = [super init];
     if (self) {
@@ -56,9 +58,7 @@
     return self;
 }
 
-#pragma mark Memory Lifecycle
-
-- (id)init
+- (instancetype)init
 {
     return [self initWithWaitQuantum:0.1];
 }
