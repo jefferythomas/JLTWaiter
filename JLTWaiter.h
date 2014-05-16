@@ -16,15 +16,13 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^JLTWaiterBlock)();
-
 @interface JLTWaiter : NSObject
 
-@property (assign, atomic, getter=isFinished) BOOL finished;
-@property (assign, atomic) NSTimeInterval waitQuantum;
+@property (atomic, getter=isFinished) BOOL finished;
+@property (atomic) NSTimeInterval waitQuantum;
 
 - (void)waitWithTimeOut:(NSTimeInterval)timeOut;
-- (void)waitWithTimeOut:(NSTimeInterval)timeOut atQuantumPeformBlock:(JLTWaiterBlock)block;
+- (void)waitWithTimeOut:(NSTimeInterval)timeOut atQuantumPeformBlock:(void(^)())block;
 
 + (JLTWaiter *)waiter;
 + (JLTWaiter *)waiterWithWaitQuantum:(NSTimeInterval)waitQuantum;

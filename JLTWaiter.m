@@ -23,7 +23,7 @@
     [self waitWithTimeOut:timeOut atQuantumPeformBlock:NULL];
 }
 
-- (void)waitWithTimeOut:(NSTimeInterval)timeOut atQuantumPeformBlock:(JLTWaiterBlock)block
+- (void)waitWithTimeOut:(NSTimeInterval)timeOut atQuantumPeformBlock:(void (^)())block
 {
     NSDate *timeOutDate = [NSDate dateWithTimeIntervalSinceNow:timeOut];
 
