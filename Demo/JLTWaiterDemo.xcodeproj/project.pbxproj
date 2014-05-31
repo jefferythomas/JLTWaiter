@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B7CC896193AA270008A5ED1 /* JLTWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CC895193AA270008A5ED1 /* JLTWaiter.m */; };
+		7B91430817014B9800943877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B91430717014B9800943877 /* UIKit.framework */; };
+		7B91430A17014B9800943877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B91430917014B9800943877 /* Foundation.framework */; };
+		7B91430C17014B9800943877 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B91430B17014B9800943877 /* CoreGraphics.framework */; };
+		7B91431217014B9800943877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B91431017014B9800943877 /* InfoPlist.strings */; };
+		7B91431417014B9800943877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91431317014B9800943877 /* main.m */; };
+		7B91431817014B9800943877 /* JLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91431717014B9800943877 /* JLTAppDelegate.m */; };
+		7B91431A17014B9800943877 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B91431917014B9800943877 /* Default.png */; };
+		7B91431C17014B9800943877 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B91431B17014B9800943877 /* Default@2x.png */; };
+		7B91431E17014B9800943877 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B91431D17014B9800943877 /* Default-568h@2x.png */; };
+		7B91432117014B9800943877 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B91431F17014B9800943877 /* MainStoryboard.storyboard */; };
+		7B91432417014B9800943877 /* JLTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91432317014B9800943877 /* JLTViewController.m */; };
+		7B91432D17014B9800943877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B91430717014B9800943877 /* UIKit.framework */; };
+		7B91432E17014B9800943877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B91430917014B9800943877 /* Foundation.framework */; };
+		7B91433617014B9800943877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B91433417014B9800943877 /* InfoPlist.strings */; };
+		7B91433917014B9800943877 /* JLTWaiterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B91433817014B9800943877 /* JLTWaiterDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B91432F17014B9800943877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B9142FC17014B9800943877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B91430317014B9800943877;
+			remoteInfo = JLTWaiterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B7CC894193AA270008A5ED1 /* JLTWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLTWaiter.h; path = ../JLTWaiter.h; sourceTree = "<group>"; };
+		7B7CC895193AA270008A5ED1 /* JLTWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLTWaiter.m; path = ../JLTWaiter.m; sourceTree = "<group>"; };
+		7B91430417014B9800943877 /* JLTWaiterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLTWaiterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B91430717014B9800943877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B91430917014B9800943877 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B91430B17014B9800943877 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B91430F17014B9800943877 /* JLTWaiterDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLTWaiterDemo-Info.plist"; sourceTree = "<group>"; };
+		7B91431117014B9800943877 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B91431317014B9800943877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B91431517014B9800943877 /* JLTWaiterDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLTWaiterDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7B91431617014B9800943877 /* JLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTAppDelegate.h; sourceTree = "<group>"; };
+		7B91431717014B9800943877 /* JLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTAppDelegate.m; sourceTree = "<group>"; };
+		7B91431917014B9800943877 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7B91431B17014B9800943877 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7B91431D17014B9800943877 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7B91432017014B9800943877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7B91432217014B9800943877 /* JLTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTViewController.h; sourceTree = "<group>"; };
+		7B91432317014B9800943877 /* JLTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTViewController.m; sourceTree = "<group>"; };
+		7B91432A17014B9800943877 /* JLTWaiterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLTWaiterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B91433317014B9800943877 /* JLTWaiterDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLTWaiterDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7B91433517014B9800943877 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B91433817014B9800943877 /* JLTWaiterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTWaiterDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B91430117014B9800943877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B91430817014B9800943877 /* UIKit.framework in Frameworks */,
+				7B91430A17014B9800943877 /* Foundation.framework in Frameworks */,
+				7B91430C17014B9800943877 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B91432617014B9800943877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B91432D17014B9800943877 /* UIKit.framework in Frameworks */,
+				7B91432E17014B9800943877 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9142FB17014B9800943877 = {
+			isa = PBXGroup;
+			children = (
+				7B7CC894193AA270008A5ED1 /* JLTWaiter.h */,
+				7B7CC895193AA270008A5ED1 /* JLTWaiter.m */,
+				7B91430D17014B9800943877 /* JLTWaiterDemo */,
+				7B91433117014B9800943877 /* JLTWaiterDemoTests */,
+				7B91430617014B9800943877 /* Frameworks */,
+				7B91430517014B9800943877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B91430517014B9800943877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B91430417014B9800943877 /* JLTWaiterDemo.app */,
+				7B91432A17014B9800943877 /* JLTWaiterDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B91430617014B9800943877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B91430717014B9800943877 /* UIKit.framework */,
+				7B91430917014B9800943877 /* Foundation.framework */,
+				7B91430B17014B9800943877 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B91430D17014B9800943877 /* JLTWaiterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B91431617014B9800943877 /* JLTAppDelegate.h */,
+				7B91431717014B9800943877 /* JLTAppDelegate.m */,
+				7B91431F17014B9800943877 /* MainStoryboard.storyboard */,
+				7B91432217014B9800943877 /* JLTViewController.h */,
+				7B91432317014B9800943877 /* JLTViewController.m */,
+				7B91430E17014B9800943877 /* Supporting Files */,
+			);
+			path = JLTWaiterDemo;
+			sourceTree = "<group>";
+		};
+		7B91430E17014B9800943877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B91430F17014B9800943877 /* JLTWaiterDemo-Info.plist */,
+				7B91431017014B9800943877 /* InfoPlist.strings */,
+				7B91431317014B9800943877 /* main.m */,
+				7B91431517014B9800943877 /* JLTWaiterDemo-Prefix.pch */,
+				7B91431917014B9800943877 /* Default.png */,
+				7B91431B17014B9800943877 /* Default@2x.png */,
+				7B91431D17014B9800943877 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B91433117014B9800943877 /* JLTWaiterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B91433817014B9800943877 /* JLTWaiterDemoTests.m */,
+				7B91433217014B9800943877 /* Supporting Files */,
+			);
+			path = JLTWaiterDemoTests;
+			sourceTree = "<group>";
+		};
+		7B91433217014B9800943877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B91433317014B9800943877 /* JLTWaiterDemoTests-Info.plist */,
+				7B91433417014B9800943877 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B91430317014B9800943877 /* JLTWaiterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B91433C17014B9800943877 /* Build configuration list for PBXNativeTarget "JLTWaiterDemo" */;
+			buildPhases = (
+				7B91430017014B9800943877 /* Sources */,
+				7B91430117014B9800943877 /* Frameworks */,
+				7B91430217014B9800943877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLTWaiterDemo;
+			productName = JLTWaiterDemo;
+			productReference = 7B91430417014B9800943877 /* JLTWaiterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B91432917014B9800943877 /* JLTWaiterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B91433F17014B9800943877 /* Build configuration list for PBXNativeTarget "JLTWaiterDemoTests" */;
+			buildPhases = (
+				7B91432517014B9800943877 /* Sources */,
+				7B91432617014B9800943877 /* Frameworks */,
+				7B91432717014B9800943877 /* Resources */,
+				7B91432817014B9800943877 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B91433017014B9800943877 /* PBXTargetDependency */,
+			);
+			name = JLTWaiterDemoTests;
+			productName = JLTWaiterDemoTests;
+			productReference = 7B91432A17014B9800943877 /* JLTWaiterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B9142FC17014B9800943877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JLT;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "JLT Source";
+			};
+			buildConfigurationList = 7B9142FF17014B9800943877 /* Build configuration list for PBXProject "JLTWaiterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B9142FB17014B9800943877;
+			productRefGroup = 7B91430517014B9800943877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B91430317014B9800943877 /* JLTWaiterDemo */,
+				7B91432917014B9800943877 /* JLTWaiterDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B91430217014B9800943877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B91431217014B9800943877 /* InfoPlist.strings in Resources */,
+				7B91431A17014B9800943877 /* Default.png in Resources */,
+				7B91431C17014B9800943877 /* Default@2x.png in Resources */,
+				7B91431E17014B9800943877 /* Default-568h@2x.png in Resources */,
+				7B91432117014B9800943877 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B91432717014B9800943877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B91433617014B9800943877 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B91432817014B9800943877 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B91430017014B9800943877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7CC896193AA270008A5ED1 /* JLTWaiter.m in Sources */,
+				7B91431417014B9800943877 /* main.m in Sources */,
+				7B91431817014B9800943877 /* JLTAppDelegate.m in Sources */,
+				7B91432417014B9800943877 /* JLTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B91432517014B9800943877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B91433917014B9800943877 /* JLTWaiterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B91433017014B9800943877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B91430317014B9800943877 /* JLTWaiterDemo */;
+			targetProxy = 7B91432F17014B9800943877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B91431017014B9800943877 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B91431117014B9800943877 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B91431F17014B9800943877 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B91432017014B9800943877 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7B91433417014B9800943877 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B91433517014B9800943877 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B91433A17014B9800943877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B91433B17014B9800943877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B91433D17014B9800943877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTWaiterDemo/JLTWaiterDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLTWaiterDemo/JLTWaiterDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B91433E17014B9800943877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTWaiterDemo/JLTWaiterDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLTWaiterDemo/JLTWaiterDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B91434017014B9800943877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLTWaiterDemo.app/JLTWaiterDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTWaiterDemo/JLTWaiterDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLTWaiterDemoTests/JLTWaiterDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		7B91434117014B9800943877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLTWaiterDemo.app/JLTWaiterDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTWaiterDemo/JLTWaiterDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLTWaiterDemoTests/JLTWaiterDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B9142FF17014B9800943877 /* Build configuration list for PBXProject "JLTWaiterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B91433A17014B9800943877 /* Debug */,
+				7B91433B17014B9800943877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B91433C17014B9800943877 /* Build configuration list for PBXNativeTarget "JLTWaiterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B91433D17014B9800943877 /* Debug */,
+				7B91433E17014B9800943877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B91433F17014B9800943877 /* Build configuration list for PBXNativeTarget "JLTWaiterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B91434017014B9800943877 /* Debug */,
+				7B91434117014B9800943877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B9142FC17014B9800943877 /* Project object */;
+}
